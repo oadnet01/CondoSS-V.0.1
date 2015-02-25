@@ -1,0 +1,137 @@
+2015/01/31 16:26:24 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\CondoSS\protected\components\UserIdentity.php(5): spl_autoload_call()
+#1 C:\wamp\www\CondoSS\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate()
+#3 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#4 C:\wamp\www\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#5 C:\wamp\www\CondoSS\protected\controllers\SiteController.php(94): LoginForm->validate()
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\wamp\www\CondoSS\index.php(13): CWebApplication->run()
+REQUEST_URI=/condoss/index.php?r=site/login
+in C:\wamp\www\CondoSS\protected\components\UserIdentity.php (5)
+in C:\wamp\www\CondoSS\protected\models\LoginForm.php (52)
+in C:\wamp\www\CondoSS\protected\controllers\SiteController.php (94)
+2015/01/31 16:33:13 [error] [php] Trying to get property of non-object (C:\wamp\www\CondoSS\protected\components\UserIdentity.php:24)
+Stack trace:
+#0 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#1 C:\wamp\www\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#2 C:\wamp\www\CondoSS\protected\controllers\SiteController.php(94): LoginForm->validate()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\CondoSS\index.php(13): CWebApplication->run()
+REQUEST_URI=/condoss/index.php?r=site/login
+in C:\wamp\www\CondoSS\protected\components\UserIdentity.php (24)
+in C:\wamp\www\CondoSS\protected\models\LoginForm.php (52)
+in C:\wamp\www\CondoSS\protected\controllers\SiteController.php (94)
+2015/02/24 00:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Detailcondo/Detail".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Detailcondo/Det...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\CondoSS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condoSS/index.php?r=Detailcondo/Detail
+HTTP_REFERER=http://localhost/condoSS/index.php
+---
+2015/02/24 00:49:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Detailcondo/Detail".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Detailcondo/Det...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\CondoSS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condoSS/index.php?r=Detailcondo/Detail
+HTTP_REFERER=http://localhost/condoSS/index.php
+---
+2015/02/24 00:49:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Detailcondo/Detail".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Detailcondo/Det...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\CondoSS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condoSS/index.php?r=Detailcondo/Detail
+HTTP_REFERER=http://localhost/condoSS/index.php
+---
+2015/02/24 01:01:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Detailcondo/Detail".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Detailcondo/Det...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\CondoSS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condoSS/index.php?r=Detailcondo/Detail
+HTTP_REFERER=http://localhost/condoSS/index.php?r=site/index
+---
+2015/02/24 01:02:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Detailcondo/Detail".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Detailcondo/Det...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\CondoSS\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/condoSS/index.php?r=Detailcondo/Detail
+HTTP_REFERER=http://localhost/condoSS/index.php?r=Detailcondo/Detail
+---
+2015/02/24 01:11:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "Detail" ตามคำสั่งได้' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('Detail')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Detail')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Detailcondo/Det...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\CondoSS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condoSS/index.php?r=Detailcondo/Detail
+HTTP_REFERER=http://localhost/condoSS/
+---
+2015/02/24 01:11:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "Detail" ตามคำสั่งได้' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('Detail')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Detail')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Detailcondo/Det...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\CondoSS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condoSS/index.php?r=Detailcondo/Detail
+HTTP_REFERER=http://localhost/condoSS/index.php
+---
+2015/02/24 01:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "Detail" ตามคำสั่งได้' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('Detail')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Detail')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Detailcondo/Det...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\CondoSS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condoSS/index.php?r=Detailcondo/Detail
+HTTP_REFERER=http://localhost/condoSS/index.php
+---
+2015/02/24 01:12:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "Detail" ตามคำสั่งได้' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('Detail')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Detail')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Detailcondo/Det...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\CondoSS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condoSS/index.php?r=Detailcondo/Detail
+HTTP_REFERER=http://localhost/condoSS/index.php
+---
+2015/02/24 01:14:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "Detail" ตามคำสั่งได้' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('Detail')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Detail')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Detailcondo/Det...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\CondoSS\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/condoSS/index.php?r=Detailcondo/Detail
+HTTP_REFERER=http://localhost/condoSS/index.php
+---
